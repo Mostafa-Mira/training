@@ -167,7 +167,7 @@ namespace training
             //else
             //{
             //    Console.WriteLine("invalid input");
-            //}
+            //}ك
 
             //Console.WriteLine(name);
             //Console.WriteLine(age);
