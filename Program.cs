@@ -1,4 +1,5 @@
 ﻿using System.Diagnostics;
+using System.Linq.Expressions;
 using System.Text;
 namespace training
 {
@@ -371,10 +372,90 @@ namespace training
 
             //Console.WriteLine(object.ReferenceEquals(x,y));
 
-            StringBuilder sb = new StringBuilder("hello");
-            sb.Append(" mostafa");
-            sb.Append(" !");
-            Console.WriteLine(sb);
+            //StringBuilder sb = new StringBuilder("hello");
+            //sb.Append(" mostafa");
+            //sb.Append(" !");
+            //Console.WriteLine(sb);
+
+            //int x = 10;// declare number 1
+            //int y = 20;// declare number 1
+            ///* 
+            // sum two number
+            // */
+            //int sum = x + y;
+            //Console.WriteLine(sum);
+            //int a = 2, b = 7;
+            //Console.WriteLine(a % b);
+
+            //string x = Console.ReadLine();
+            //try
+            //{
+            //    int num1 = int.Parse(x);
+            //    int num2 = Convert.ToInt32(x);
+
+            //    Console.WriteLine(num1);
+            //    Console.WriteLine(num2);
+            //}
+            //catch
+
+            //{ 
+            //Console.WriteLine("invalid input");
+            //}
+
+            //int num ;
+            //if (int.TryParse(Console.ReadLine(), out num))
+            //{
+            //Console.WriteLine(num);
+            //}
+            //else
+            //{
+            //    Console.WriteLine("error invalid input");
+            //}
+
+            //object x = 2;
+            //Console.WriteLine(x.GetHashCode());
+
+            // x = "m";
+            //Console.WriteLine(x.GetHashCode());
+
+            // x = "mostafa";
+            //Console.WriteLine(x.GetHashCode());
+
+            //x = true;
+            //Console.WriteLine(x.GetHashCode());
+
+            //object p1 = new object();
+
+            //p1 = 5;
+            //object p2;
+            //p2 = 7;
+            //p2 = p1;
+            //Console.WriteLine(p1);
+
+            //string name = "hi waily";
+            //Console.WriteLine(name.GetHashCode());
+
+            //name += " !";
+            //Console.WriteLine(name.GetHashCode());
+            //string x= "mosatfa";
+            //StringBuilder sb=new StringBuilder("mostaf");
+            //Console.WriteLine(sb.GetHashCode());
+            //sb.Append("a");
+            //Console.WriteLine(sb);
+            //Console.WriteLine(sb.GetHashCode());
+
+            //StringBuilder text = new StringBuilder("hello tofa");
+            //text.Append(" mo");
+            //Console.WriteLine(text);
+
+            //text.Remove(12, 1);
+            //Console.WriteLine(text);
+
+            //text.Replace("he", "HE");
+            //Console.WriteLine(text);
+
+            //text.Insert(7, "mo ");
+            //Console.WriteLine(text);
 
 
 
